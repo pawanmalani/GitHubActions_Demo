@@ -16,8 +16,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}   
         with:
           args:
-            -Dsonar.projectKey=gitbot-nida_GitHubActions_Demo
-            -Dsonar.organization=gitbot-nida
+            -Dsonar.projectKey=pawanmalani_GitHubActions_Demo
+            -Dsonar.organization=pawanmalani
            
   build:
     needs: Analysis
