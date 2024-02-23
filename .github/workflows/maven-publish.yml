@@ -9,7 +9,7 @@ on:
 
 jobs:
 analysis:
-
+    needs: analysis
     runs-on: ubuntu-latest
     steps:
       - name: Analyze with SonarCloud
